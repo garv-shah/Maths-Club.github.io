@@ -1,2 +1,2 @@
 # Maths-Club.github.io
-Website 
+Website for maths club
