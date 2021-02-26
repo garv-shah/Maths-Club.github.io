@@ -1,7 +1,4 @@
 {% include mathjax.html %}
 {% include katex.html %}
 {% include header.html %}
-# Display Maths
-$$\sum_{i=1} ^ n i = \frac{i(i+1)}{2}$$
-## Inline Maths 
-$x^2$
+Welcome to the Caulfield Grammar Math Club Website. It's pretty empty now but I'm sure there will be more later.
