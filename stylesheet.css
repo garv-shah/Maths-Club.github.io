@@ -1,7 +1,7 @@
 
       body.saberstyle {
         overflow-x: auto;
-        background-image: url("background/kevinwaifu.jpg"); /*kevin asked for this*/ 
+        background-image: url("background/kevinwantedthis.jpg"); /*kevin asked for this*/ 
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right bottom;
@@ -34,7 +34,7 @@
             background-color: #5f5f5f;
             color: #f1f1f1;
             width: 100%;
-            padding: 2px,0;
+            padding: 2px,0,2px,2px;
             letter-spacing: 1px;
             font-family: "Segoe UI",Arial,sans-serif;
       }
@@ -48,7 +48,7 @@
 	         color: white; /* text color */
 	         margin: 3% 0;
            font-weight: bold;
-           padding: 2px 4%;
+           padding: 2px,0,2px,2px;
       }
       a.navbutton:hover {
         background-color: rgb(255,255,255,0.8);
