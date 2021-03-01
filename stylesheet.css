@@ -1,7 +1,7 @@
 
       body {
         overflow-x: auto;
-        background-image: https://comicvine1.cbsistatic.com/uploads/scale_super/14/146991/4366227-0865143671-fate_.jpg; /*kevin asked for this*/ 
+        background-image: "background/kevinwantedthis.jpg"; /*kevin asked for this*/ 
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: right bottom;
