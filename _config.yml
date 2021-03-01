@@ -1,5 +1,6 @@
-theme: jekyll-theme-cayman
-
+theme: jekyll-theme-minimal
+title: Maths Club
+description: EARLY ALPHA
 markdown: kramdown
 kramdown:
     math_engine: katex

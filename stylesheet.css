@@ -1,0 +1,55 @@
+
+      body {
+        overflow-x: auto;
+        background-image: https://comicvine1.cbsistatic.com/uploads/scale_super/14/146991/4366227-0865143671-fate_.jpg; /*kevin asked for this*/ 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right bottom;
+      }
+
+      .rosella-container {
+        width: 1500px;
+        padding: 2rem;
+        margin: 3rem auto 20% auto;
+      }
+
+      .rosella-textbox {
+        width: 50%;
+        padding: 2rem;
+        background-color: rgba(196,202,206, 0.8);
+        margin: 3rem auto 2% auto;
+      }
+
+      .w3schoolnavbar {
+            position: relative;
+            z-index: 2;
+            font-size: 17px;
+            background-color: #5f5f5f;
+            color: #f1f1f1;
+            width: 100%;
+            padding: 2px;
+            letter-spacing: 1px;
+            font-family: "Segoe UI",Arial,sans-serif;
+      }
+
+      a.navbutton {
+	         border: none;
+	         font-size: 20px;
+	         background-color: #5f5f5f;
+	         font-family: "Segoe UI",Arial,sans-serif;
+	         text-decoration: none;
+	         color: white; /* text color */
+	         margin: 3% 0;
+           font-weight: bold;
+           padding: 2px 4%;
+      }
+      a.navbutton:hover {
+        background-color: rgb(255,255,255,0.8);
+        //color:#fff;
+      }
+      #search-card {
+        margin: 0;
+        width: min-content;
+        z-index: 1;
+        position: absolute;
+      }
