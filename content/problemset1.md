@@ -1,6 +1,5 @@
 {% include header2.html %}
 {% include mathjax.html %}
-{% include katex.html %}
 # On the subject of memes
 Haha meme funny $x^2+420x+69=0$ is a qaudratic equation.
 
