@@ -9,3 +9,4 @@ kramdown:
     math_engine: katex
 feed:
   posts_limit: 20
+  excerpt_only: true
