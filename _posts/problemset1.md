@@ -1,5 +1,5 @@
 ---
-title: Test Post
+title: TestPost
 excerpt: Test Problemset Yay
 ---
 {% include header.html %}
