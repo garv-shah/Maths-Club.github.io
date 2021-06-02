@@ -2,4 +2,5 @@ theme: jekyll-theme-slate
 title: Maths Club
 description: EARLY ALPHA
 markdown: kramdown
-mathjax: true
+kramdown:
+    math_engine: katex
