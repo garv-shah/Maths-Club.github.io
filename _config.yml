@@ -2,5 +2,10 @@ theme: jekyll-theme-slate
 title: Maths Club
 description: EARLY ALPHA
 markdown: kramdown
+plugins:
+  - jekyll-feed
+  
 kramdown:
     math_engine: katex
+feed:
+  posts_limit: 20
