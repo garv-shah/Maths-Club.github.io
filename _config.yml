@@ -2,6 +2,12 @@ theme: jekyll-theme-slate
 title: Maths Club
 description: EARLY ALPHA
 markdown: kramdown
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title
+    
 plugins:
   - jekyll-feed
   
