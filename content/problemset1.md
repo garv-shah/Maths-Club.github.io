@@ -1,6 +1,10 @@
 {% include header.html %}
+---
+title: Test Post
+excerpt: Test Problemset Yay
+---
 # On the subject of memes
-Haha meme funny $x^2+420x+69=0$ is a qaudratic equation.
+Haha meme funny $x^2+2x+1=0$ is a qaudratic equation rendered with inline math ($). 
 
 OOh goody I can do display math with "$$" signs.
 
