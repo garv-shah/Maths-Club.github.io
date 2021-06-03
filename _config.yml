@@ -14,5 +14,5 @@ plugins:
 kramdown:
     math_engine: katex
 feed:
-  posts_limit: 20
+  posts_limit: 50
   excerpt_only: true
