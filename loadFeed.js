@@ -39,4 +39,5 @@
          document.querySelector("body").appendChild(postElem)
        }
     }
-   </script>
+    fetchPosts()
+</script>
