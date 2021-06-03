@@ -19,18 +19,18 @@
         </div>
     </nav>
 <body class="saberstyle">
-  <div class='rosella-textbox'>
-    <h2> Problemset 1 </h2>
-    <p> Your description Here <p>
-    <a href='https://maths-club.github.io/content/problemset1'> READ MORE </a>
-</div>
+<div class = "rosella-textbox">
+  <ul>
+  {% for post in site.posts %}
+    <li>
+	    <h3> {{ post.title }} </h3>
+	    <p> {{ post.excerpt }} </p>
+      <a href="{{ post.url }}"> READ MORE </a>
+	
+    </li>
+  {% endfor %}
+</ul>
+	</div>
 </body>
-
-  <!-- this component of the website is static atm
-       this is saying that I dont want a DB for this part
-       workflow is a bit annoying but I think it will be fine
-       at the moment your just gonna have to
-       1) upload into content (say ur file is named "X")
-       2) make a textbox (copy ) -!>
 
 </html>
