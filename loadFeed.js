@@ -1,18 +1,20 @@
 // load atom feed to body
-var request = new XMLHttpRequest();
-const ATOM_FEED_URL = "https://maths-club.github.io/feed.xml";
-const ERROR_MSG = "Uh Oh: Cannot load posts at the moment :("
-request.open("GET", ATOM_FEED_URL, true);
+function fetchPosts() {
+  var request = new XMLHttpRequest();
+  const ATOM_FEED_URL = "https://maths-club.github.io/feed.xml";
+  const ERROR_MSG = "Uh Oh: Cannot load posts at the moment :("
+  request.open("GET", ATOM_FEED_URL, true);
 
-request.send();
-request.onreadystatechange = function() {
-   if (this.readyState == 4 && this.status == 200) {
-     console.log(this.responseText)
-     loadPosts(this.responseXML);
-   } else if (this.readyState == 4) {
-     document.getElementById("feed").innerHTML = ERROR_MSG;
-   }
- };
+  request.send();
+  request.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      console.log(this.responseText)
+      loadPosts(this.responseXML);
+    } else if (this.readyState == 4) {
+      document.getElementById("feed").innerHTML = ERROR_MSG;
+    }
+  };
+}
 
 
 function loadPosts(feedXml) {
