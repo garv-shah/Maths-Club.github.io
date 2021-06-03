@@ -1,5 +1,4 @@
-<script>
-    // load atom feed to body
+// load atom feed to body
     function fetchPosts() {
       var request = new XMLHttpRequest();
       const ATOM_FEED_URL = "https://maths-club.github.io/feed.xml";
@@ -40,4 +39,3 @@
        }
     }
     fetchPosts()
-</script>
