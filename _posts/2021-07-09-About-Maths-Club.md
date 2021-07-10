@@ -5,7 +5,7 @@ excerpt: The CGSWH Maths Club
 
 # The Jerry Mao Maths Club 
 
-The Jerry Mao Maths Club was founded at Caulfield Grammar Wheelers Hill Campus in 2017 by Jerry Mao (hence the name). He started the Maths Club to share his love of Maths and problem solving with other students at CGS. If you are a student at our school, then you have no doubt already heard about Jerry's legendary achievements already. But you can also find out more about him here:  
+The Jerry Mao Maths Club was founded at Caulfield Grammar Wheelers Hill Campus in 2017 by Jerry Mao (hence the name). He started the Maths Club to share his love of Maths and problem solving with other students at CGS. If you are a student at our school, then you have no doubt already heard about Jerry's legendary achievements. But you can also find out more about him here:  
 [https://www.caulfieldgrammarians.com.au/high-achiever-jerry-mao/](https://www.caulfieldgrammarians.com.au/high-achiever-jerry-mao/)   
 [https://jerrymao.net/](https://jerrymao.net/)
 
