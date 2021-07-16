@@ -42,7 +42,7 @@ function loadPosts(feedXml) {
    published = published.substring(0, 10).replaceAll("-","/") //clean to YYYY-MM-DD
    //console.log(excerpt, title, published, link)
    var postElem = makeRosellaTextbox();
-   postElem.innerHTML = "<h3>" + title + "<h3><h4> Date: " + published + "</h4><p>"+excerpt + "</p><<br><a href='"+link+"'>READ MORE </a>"
+   postElem.innerHTML = "<h3>" + title + "<h3><h4> Date: " + published + "</h4><p>"+excerpt + "</p><br><a href='"+link+"'>READ MORE </a>"
    document.querySelector("body").appendChild(postElem)
  }
 }
