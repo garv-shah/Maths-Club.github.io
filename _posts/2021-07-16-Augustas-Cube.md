@@ -23,7 +23,7 @@ How many $1\times1\times1$ cubes did Augusta remove?
   
  <p>
   Now consider the $1\times1$ holes from each direction. Each of the twenty $3\times3\times3$ cubes remaining will have $7$ unit cubes removed, so $20\times7=140$ unit cubes in all.
-  In total, Augusta removes $189\times 140=329$ unit cubes  
+  In total, Augusta removes $189 + 140=329$ unit cubes  
  </p>
  
 </details>
