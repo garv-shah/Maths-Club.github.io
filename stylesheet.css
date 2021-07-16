@@ -4,14 +4,23 @@
         background-image: url("background/prodbackground.jpg"); /*kevin asked for this*/
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: right bottom;
-	  /* Full height */
+          /* Full height */
 	  height: 100%;
 
 	  /* Center and scale the image nicely */
 	  background-position: center;
- 	 background-repeat: no-repeat;
- 	 background-size: cover;
+          background-size: cover;
+      }
+
+      @font-face {
+          font-family: Lato;
+          src: url(fonts/Lato-Regular.ttf);
+      }
+
+      @font-face {
+          font-family: Lato;
+          src: url(fonts/Lato-Bold.ttf);
+          font-weight: bold;
       }
 
       .rosella-container {
@@ -21,10 +30,12 @@
       }
 
       .rosella-textbox {
-        width: 50%;
-        padding: 2rem;
-        background-color: rgba(196,202,206, 0.8);
-        margin: 3rem auto 2% auto;
+          width: 50%;
+          padding: 2rem;
+          background-color: rgba(196,202,206, 0.8);
+          margin: 3rem auto 2% auto;
+          border-radius: 25px;
+          font-family: Lato, sans-serif;
       }
 
       .w3schoolnavbar {
