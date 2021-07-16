@@ -25,6 +25,7 @@
         padding: 2rem;
         background-color: rgba(196,202,2062, 0.8);
         margin: 3rem auto 2% auto;
+	border-radius: 25px;
       }
 
       .w3schoolnavbar {
