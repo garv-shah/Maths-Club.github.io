@@ -1,9 +1,9 @@
 // load atom feed to body
 
-function makeRosellaTextbox() {
+function makeBlogPost() {
   var postElem = document.createElement("div")
   var CSSattr = document.createAttribute("class")
-  CSSattr.value = "rosella-textbox"
+  CSSattr.value = "clean-blog-post"
   postElem.setAttributeNode(CSSattr)
   return postElem;
 }
@@ -19,9 +19,9 @@ function fetchPosts() {
       //console.log(this.responseText)
       loadPosts(this.responseXML);
     } else if (this.readyState == 4) {
-      var txtbox = makeRosellaTextbox();
+      var txtbox = makeBlogPost();
       txtbox.innerHTML = ERROR_MSG;
-      document.querySelector("body").appendChild(postElem)
+      document.querySelector("body > main > section > div > div.block-content").appendChild(postElem)
     }
   };
 }
@@ -41,9 +41,9 @@ function loadPosts(feedXml) {
    var published = post.getElementsByTagName("published")[0].textContent;
    published = published.substring(0, 10).replaceAll("-","/") //clean to YYYY-MM-DD
    //console.log(excerpt, title, published, link)
-   var postElem = makeRosellaTextbox();
-   postElem.innerHTML = "<h3>" + title + "<h3><h4> Date: " + published + "</h4><p>"+excerpt + "</p><br><a href='"+link+"'>READ MORE </a>"
-   document.querySelector("body").appendChild(postElem)
+   var postElem = makeBlogPost();
+   postElem.innerHTML = "<h3>" + title + '</h3><div class=\"info\"><span class=\"text-muted\">' + published + "</span></div><p>"+excerpt +'</p><a class="btn btn-outline-primary btn-sm" role="button" href="'+link+'" style="border-color: #d72631;color: #d72631;">Read More</a>'
+   document.querySelector("body > main > section > div > div.block-content").appendChild(postElem)
  }
 }
 fetchPosts()
