@@ -26,6 +26,21 @@
     --dark-highlight: #d72631;
 
     /* Default mode */
+    --switch-shadow-color: var(--dark-switch-shadow);
+    --switch-icon: var(--dark-switch-icon);
+    --switch-text: var(--dark-switch-text);
+    --text-color: var(--dark-text);
+    --secondary-text-color: var(--dark-secondary-text);
+    --muted-text-color: var(--dark-muted-text);
+    --bg-color: var(--dark-bg);
+    --secondary-bg-color: var(--dark-secondary-bg);
+    --theme-color: var(--dark-theme);
+    --bar-color: var(--dark-bar);
+    --highdark-color: var(--dark-highlight);
+}
+
+/* Switched mode */
+.theme-switch:checked ~ #page {
     --switch-shadow-color: var(--light-switch-shadow);
     --switch-icon: var(--light-switch-icon);
     --switch-text: var(--light-switch-text);
@@ -37,21 +52,6 @@
     --theme-color: var(--light-theme);
     --bar-color: var(--light-bar);
     --highlight-color: var(--light-highlight);
-}
-
-/* Switched mode */
-.theme-switch:checked ~ #page {
-    --switch-shadow-color: var(--dark-switch-shadow);
-    --switch-icon: var(--dark-switch-icon);
-    --switch-text: var(--dark-switch-text);
-    --text-color: var(--dark-text);
-    --secondary-text-color: var(--dark-secondary-text);
-    --muted-text-color: var(--dark-muted-text);
-    --bg-color: var(--dark-bg);
-    --secondary-bg-color: var(--dark-secondary-bg);
-    --theme-color: var(--dark-theme);
-    --bar-color: var(--dark-bar);
-    --highlight-color: var(--dark-highlight);
 }
 
 /* Theme switcher */
