@@ -36,7 +36,7 @@
     --secondary-bg-color: var(--dark-secondary-bg);
     --theme-color: var(--dark-theme);
     --bar-color: var(--dark-bar);
-    --highdark-color: var(--dark-highlight);
+    --highlight-color: var(--dark-highlight);
 }
 
 /* Switched mode */
