@@ -71,7 +71,7 @@
 .switch-label::before {
     content: var(--switch-icon);
     font-size: 40px;
-    transition: text-shadow .2s;
+    transition: text-shadow 0.3s;
 }
 
 .switch-label::after {
@@ -82,7 +82,7 @@
     line-height: 40px;
     opacity: 0;
     padding-left: 15px;
-    transition: opacity .2s;
+    transition: opacity 0.3s;
 }
 
 .theme-switch:focus ~ #page .switch-label::before,
@@ -99,5 +99,5 @@
     background: var(--bg-color);
     color: var(--text-color);
     min-height: 100%;
-    transition: color .2s, background-color .2s;
+    transition: color .4s, background-color .4s;
 }
