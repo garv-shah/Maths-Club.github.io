@@ -26,21 +26,6 @@
     --dark-highlight: #d72631;
 
     /* Default mode */
-    --switch-shadow-color: var(--light-switch-shadow);
-    --switch-icon: var(--light-switch-icon);
-    --switch-text: var(--light-switch-text);
-    --text-color: var(--light-text);
-    --secondary-text-color: var(--light-secondary-text);
-    --muted-text-color: var(--light-muted-text);
-    --bg-color: var(--light-bg);
-    --secondary-bg-color: var(--light-secondary-bg);
-    --theme-color: var(--light-theme);
-    --bar-color: var(--light-bar);
-    --highlight-color: var(--light-highlight);
-}
-
-/* Switched mode */
-.theme-switch:checked ~ #page {
     --switch-shadow-color: var(--dark-switch-shadow);
     --switch-icon: var(--dark-switch-icon);
     --switch-text: var(--dark-switch-text);
@@ -52,6 +37,21 @@
     --theme-color: var(--dark-theme);
     --bar-color: var(--dark-bar);
     --highlight-color: var(--dark-highlight);
+}
+
+/* Switched mode */
+.theme-switch:checked ~ #page {
+    --switch-shadow-color: var(--light-switch-shadow);
+    --switch-icon: var(--light-switch-icon);
+    --switch-text: var(--light-switch-text);
+    --text-color: var(--light-text);
+    --secondary-text-color: var(--light-secondary-text);
+    --muted-text-color: var(--light-muted-text);
+    --bg-color: var(--light-bg);
+    --secondary-bg-color: var(--light-secondary-bg);
+    --theme-color: var(--light-theme);
+    --bar-color: var(--light-bar);
+    --highlight-color: var(--light-highlight);
 }
 
 /* Theme switcher */
