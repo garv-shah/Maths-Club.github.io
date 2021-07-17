@@ -21,7 +21,7 @@ function fetchPosts() {
     } else if (this.readyState == 4) {
       var txtbox = makeBlogPost();
       txtbox.innerHTML = ERROR_MSG;
-      document.querySelector("body > main > section > div > div.block-content").appendChild(postElem)
+      document.querySelector("#page > main > section > div > div.block-content").appendChild(postElem)
     }
   };
 }
@@ -42,8 +42,8 @@ function loadPosts(feedXml) {
    published = published.substring(0, 10).replaceAll("-","/") //clean to YYYY-MM-DD
    //console.log(excerpt, title, published, link)
    var postElem = makeBlogPost();
-   postElem.innerHTML = "<h3>" + title + '</h3><div class=\"info\"><span class=\"text-muted\">' + published + "</span></div><p>"+excerpt +'</p><a class="btn btn-outline-primary btn-sm" role="button" href="'+link+'" style="border-color: #d72631;color: #d72631;">Read More</a>'
-   document.querySelector("body > main > section > div > div.block-content").appendChild(postElem)
+   postElem.innerHTML = "<h3>" + title + '</h3><div class=\"info\"><span style="color: var(--muted-text-color)">' + published + "</span></div><p>"+excerpt +'</p><a class="btn btn-outline-primary btn-sm" role="button" href="'+link+'" style="border-color: var(--highlight-color);color: var(--highlight-color);">Read More</a>'
+   document.querySelector("#page > main > section > div > div.block-content").appendChild(postElem)
  }
 }
 fetchPosts()

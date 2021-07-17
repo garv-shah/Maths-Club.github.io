@@ -1,0 +1,103 @@
+:root {
+    /* Light mode */
+    --light-switch-shadow: #373d4e;
+    --light-switch-icon: "🌚";
+    --light-switch-text: "death by colour?";
+    --light-text: #212529;
+    --light-secondary-text: #6c757d;
+    --light-muted-text: #000000;
+    --light-bg: #f7f7f7;
+    --light-secondary-bg: #fff;
+    --light-theme: #3b99e0;
+    --light-bar: #ffffff;
+    --light-highlight: #0d6efd;
+
+    /* Dark mode */
+    --dark-switch-shadow: #fce477;
+    --dark-switch-icon: "🌝";
+    --dark-switch-text: "corporate minimalism?";
+    --dark-text: #212529;
+    --dark-secondary-text: #ffffff;
+    --dark-muted-text: #6c757d;
+    --dark-bg: #077b8a;
+    --dark-secondary-bg: #a2d5c6;
+    --dark-theme: #a2d5c6;
+    --dark-bar: #5c3c92;
+    --dark-highlight: #d72631;
+
+    /* Default mode */
+    --switch-shadow-color: var(--light-switch-shadow);
+    --switch-icon: var(--light-switch-icon);
+    --switch-text: var(--light-switch-text);
+    --text-color: var(--light-text);
+    --secondary-text-color: var(--light-secondary-text);
+    --muted-text-color: var(--light-muted-text);
+    --bg-color: var(--light-bg);
+    --secondary-bg-color: var(--light-secondary-bg);
+    --theme-color: var(--light-theme);
+    --bar-color: var(--light-bar);
+    --highlight-color: var(--light-highlight);
+}
+
+/* Switched mode */
+.theme-switch:checked ~ #page {
+    --switch-shadow-color: var(--dark-switch-shadow);
+    --switch-icon: var(--dark-switch-icon);
+    --switch-text: var(--dark-switch-text);
+    --text-color: var(--dark-text);
+    --secondary-text-color: var(--dark-secondary-text);
+    --muted-text-color: var(--dark-muted-text);
+    --bg-color: var(--dark-bg);
+    --secondary-bg-color: var(--dark-secondary-bg);
+    --theme-color: var(--dark-theme);
+    --bar-color: var(--dark-bar);
+    --highlight-color: var(--dark-highlight);
+}
+
+/* Theme switcher */
+.theme-switch { /* Hides the checkbox */
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.switch-label {
+    cursor: pointer;
+    display: flex;
+}
+
+.switch-label::before {
+    content: var(--switch-icon);
+    font-size: 40px;
+    transition: text-shadow .2s;
+}
+
+.switch-label::after {
+    align-self: center;
+    content: var(--switch-text);
+    color: var(--switch-shadow-color);
+    font-size: 28px;
+    line-height: 40px;
+    opacity: 0;
+    padding-left: 15px;
+    transition: opacity .2s;
+}
+
+.theme-switch:focus ~ #page .switch-label::before,
+.switch-label:hover::before {
+    text-shadow: 0 0 15px var(--switch-shadow-color);
+}
+
+.theme-switch:focus ~ #page .switch-label::after,
+.switch-label:hover::after {
+    opacity: 1;
+}
+
+#page {
+    background: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100%;
+    transition: color .2s, background-color .2s;
+}
