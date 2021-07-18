@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
   <link rel="stylesheet" href="../assets/css/vanilla-zoom.min.css">
   <link rel="stylesheet" href="../assets/css/theming.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
 </head>
 
 <body>
@@ -38,8 +39,98 @@
           <h2 class="text-info" style="color: var(--theme-color) !important; transition: color 0.4s, background-color 0.4s;">Settings</h2>
           <p style="color: var(--secondary-text-color); transition: color 0.4s, background-color 0.4s;">Change the theming however you'd like!</p>
         </div>
-        <div class="block-content" style="background-color: var(--secondary-bg-color); transition: color 0.4s, background-color 0.4s;"></div>
-      </div>
+        <div class="block-content" style="background-color: var(--secondary-bg-color); transition: color 0.4s, background-color 0.4s;">
+          <div class="dropdown d-flex d-md-flex justify-content-center align-self-center justify-content-md-center"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background-color: var(--highlight-color); border-color: var(--bg-color);">What to change?</button>
+            <div class="dropdown-menu dropdown-menu-dark" style="background-color: var(--switch-shadow-color); right: auto; left: 50%; -webkit-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); transform: translate(-50%, 0);">
+              <button class="dropdown-item" type="button" onClick="setSetting('switch-shadow')" style="color: var(--bg-color)">Switch Shadow Colour</button>
+              <button class="dropdown-item" type="button" onClick="setSetting('text')" style="color: var(--bg-color)">Text Colour</button>
+              <button class="dropdown-item" type="button" onClick="setSetting('secondary-text')" style="color: var(--bg-color)">Secondary Text Colour</button>
+              <button class="dropdown-item" type="button" onClick="setSetting('muted-text')" style="color: var(--bg-color)">Muted Text Colour</button>
+              <button class="dropdown-item" type="button" onClick="setSetting('bg')" style="color: var(--bg-color)">Background Colour</button>
+              <button class="dropdown-item" type="button" onClick="setSetting('secondary-bg')" style="color: var(--bg-color)">Secondary Background Colour</button>
+              <button class="dropdown-item" type="button" onClick="setSetting('theme')" style="color: var(--bg-color)">Theme Colour</button>
+              <button class="dropdown-item" type="button" onClick="setSetting('bar')" style="color: var(--bg-color)">Bar Colour</button>
+              <button class="dropdown-item" type="button" onClick="setSetting('highlight')" style="color: var(--bg-color)">Highlight Colour</button>
+            </div>
+          </div>
+          <div class="pickr-container" style="position: relative; overflow: visible; transform: translateY(0); margin: 0; padding: 0;"></div>
+        </div>
+        </div>
+      <!-- Start: 1 Row 1 Column -->
+      <div class="container">
+        <div class="block-heading">
+          <h2 class="text-info" style="color: var(--theme-color) !important; transition: color 0.4s, background-color 0.4s;">Settings</h2>
+          <p style="color: var(--secondary-text-color); transition: color 0.4s, background-color 0.4s;">Change the theming however you'd like!</p>
+        </div>
+      </div><!-- End: 1 Row 1 Column -->
+      <!-- Start: 1 Row 2 Columns -->
+      <div class="container" style="background: #a2d5c6;">
+        <div class="row">
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill align-self-center justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
+            <div class="dropdown d-flex d-md-flex justify-content-center align-self-center justify-content-md-center"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background-color: var(--highlight-color); border-color: var(--bg-color);">What to change?</button>
+              <div class="dropdown-menu dropdown-menu-dark" style="background-color: var(--switch-shadow-color); right: auto; left: 50%; -webkit-transform: translate(-50%, 0); -o-transform: translate(-50%, 0); transform: translate(-50%, 0);">
+                <button class="dropdown-item" type="button" onClick="setSetting('switch-shadow')" style="color: var(--bg-color)">Switch Shadow Colour</button>
+                <button class="dropdown-item" type="button" onClick="setSetting('text')" style="color: var(--bg-color)">Text Colour</button>
+                <button class="dropdown-item" type="button" onClick="setSetting('secondary-text')" style="color: var(--bg-color)">Secondary Text Colour</button>
+                <button class="dropdown-item" type="button" onClick="setSetting('muted-text')" style="color: var(--bg-color)">Muted Text Colour</button>
+                <button class="dropdown-item" type="button" onClick="setSetting('bg')" style="color: var(--bg-color)">Background Colour</button>
+                <button class="dropdown-item" type="button" onClick="setSetting('secondary-bg')" style="color: var(--bg-color)">Secondary Background Colour</button>
+                <button class="dropdown-item" type="button" onClick="setSetting('theme')" style="color: var(--bg-color)">Theme Colour</button>
+                <button class="dropdown-item" type="button" onClick="setSetting('bar')" style="color: var(--bg-color)">Bar Colour</button>
+                <button class="dropdown-item" type="button" onClick="setSetting('highlight')" style="color: var(--bg-color)">Highlight Colour</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill align-self-center justify-content-sm-start align-items-sm-center justify-content-md-start align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;"><input class="d-md-flex justify-content-md-center align-items-md-center" type="color" style="text-align: left;"></div>
+        </div>
+      </div><!-- End: 1 Row 2 Columns -->
+      <!-- Start: 1 Row 2 Columns -->
+      <div class="container" style="background: #a2d5c6;">
+        <div class="row">
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
+            <h1 class="d-flex justify-content-end align-items-center" style="font-size: 16.4px;">Dark Mode Label?</h1>
+          </div>
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-start align-items-sm-center justify-content-md-start align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;"><input class="d-flex justify-content-center align-items-center" type="text" style="font-size: 9px;width: 82px;"></div>
+        </div>
+      </div><!-- End: 1 Row 2 Columns -->
+      <!-- Start: 1 Row 2 Columns -->
+      <div class="container" style="background: #a2d5c6;">
+        <div class="row">
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
+            <h1 class="d-flex justify-content-end align-items-center" style="font-size: 16.4px;">Dark Mode Emoji?</h1>
+          </div>
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-start align-items-sm-center justify-content-md-start align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;"><input class="d-flex justify-content-center align-items-center" type="text" style="font-size: 9px;width: 82px;"></div>
+        </div>
+      </div><!-- End: 1 Row 2 Columns -->
+      <!-- Start: 1 Row 2 Columns -->
+      <div class="container" style="background: #a2d5c6;">
+        <div class="row">
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
+            <h1 class="d-flex justify-content-end align-items-center" style="font-size: 16.4px;">Light Mode Label?</h1>
+          </div>
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-start align-items-sm-center justify-content-md-start align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;"><input class="d-flex justify-content-center align-items-center" type="text" style="font-size: 9px;width: 82px;"></div>
+        </div>
+      </div><!-- End: 1 Row 2 Columns -->
+      <!-- Start: 1 Row 2 Columns -->
+      <div class="container" style="background: #a2d5c6;">
+        <div class="row">
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
+            <h1 class="d-flex justify-content-end align-items-center" style="font-size: 16.4px;">Light Mode Emoji?</h1>
+          </div>
+          <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-start align-items-sm-center justify-content-md-start align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;"><input class="d-flex justify-content-center align-items-center" type="text" style="font-size: 9px;width: 82px;"></div>
+        </div>
+      </div><!-- End: 1 Row 2 Columns -->
+      <!-- Start: 1 Row 1 Column -->
+      <div class="container" style="background: #a2d5c6;">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 style="text-align: center;margin-top: 20px;">Presets:</h1>
+            <div class="d-flex d-sm-flex d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center" style="margin-bottom: 10px;">
+              <div class="btn-group" role="group"><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button></div>
+            </div>
+          </div>
+        </div>
+      </div><!-- End: 1 Row 1 Column -->
     </section>
   </main>
 </div>
@@ -47,6 +138,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 <script src="../assets/js/vanilla-zoom.js"></script>
 <script src="../assets/js/theme.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+<script src="../assets/js/settings.js"></script>
 
 <script>
   // This code is only used to remember theme selection between page loads
