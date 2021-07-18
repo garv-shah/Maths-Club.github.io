@@ -99,24 +99,51 @@ document.querySelector('#page > main > section > div:nth-child(5) > div > div.co
 document.querySelector('#page > main > section > div:nth-child(6) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').placeholder = getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-switch-icon').replace(/"/g,'')
 
 function save() {
-    let dark_switch_text = '"' + document.querySelector('#page > main > section > div:nth-child(3) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').value + '"'
-    let dark_switch_icon = '"' + document.querySelector('#page > main > section > div:nth-child(4) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').value + '"'
-    let light_switch_text = '"' + document.querySelector('#page > main > section > div:nth-child(5) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').value + '"'
-    let light_switch_icon = '"' + document.querySelector('#page > main > section > div:nth-child(6) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').value + '"'
+    let dark_switch_text = document.querySelector('#page > main > section > div:nth-child(3) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input')
+    let dark_switch_icon = document.querySelector('#page > main > section > div:nth-child(4) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input')
+    let light_switch_text = document.querySelector('#page > main > section > div:nth-child(5) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input')
+    let light_switch_icon = document.querySelector('#page > main > section > div:nth-child(6) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input')
 
-    if (dark_switch_text !== "\"\"") {
-        document.querySelector(':root').style.setProperty('--dark-switch-text', dark_switch_text)
+    if (dark_switch_text.value !== "") {
+        console.log(dark_switch_text.value)
+        document.querySelector(':root').style.setProperty('--dark-switch-text', '"' + dark_switch_text.value + '"')
+        dark_switch_text.placeholder = dark_switch_text.value
     }
 
-    if (dark_switch_icon !== "\"\"") {
-        document.querySelector(':root').style.setProperty('--dark-switch-icon', dark_switch_icon)
+    if (dark_switch_icon.value !== "") {
+        document.querySelector(':root').style.setProperty('--dark-switch-icon', '"' + dark_switch_icon.value + '"')
+        dark_switch_icon.placeholder = dark_switch_icon.value
     }
 
-    if (light_switch_text !== "\"\"") {
-        document.querySelector(':root').style.setProperty('--light-switch-text', light_switch_text)
+    if (light_switch_text.value !== "") {
+        document.querySelector(':root').style.setProperty('--light-switch-text', '"' + light_switch_text.value + '"')
+        light_switch_text.placeholder = light_switch_text.value
     }
 
-    if (light_switch_icon !== "\"\"") {
-        document.querySelector(':root').style.setProperty('--light-switch-icon', light_switch_icon)
+    if (light_switch_icon.value !== "") {
+        document.querySelector(':root').style.setProperty('--light-switch-icon', '"' + light_switch_icon.value + '"')
+        light_switch_icon.placeholder = light_switch_icon.value
     }
+
+    localStorage.setItem('--light-switch-shadow', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-switch-shadow'))
+    localStorage.setItem('--light-switch-icon', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-switch-icon'))
+    localStorage.setItem('--light-switch-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-switch-text'))
+    localStorage.setItem('--light-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-text'))
+    localStorage.setItem('--light-secondary-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-secondary-text'))
+    localStorage.setItem('--light-muted-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-muted-text'))
+    localStorage.setItem('--light-secondary-bg', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-secondary-bg'))
+    localStorage.setItem('--light-theme', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-theme'))
+    localStorage.setItem('--light-bar', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-bar'))
+    localStorage.setItem('--light-highlight', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-highlight'))
+
+    localStorage.setItem('--dark-switch-shadow', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-switch-shadow'))
+    localStorage.setItem('--dark-switch-icon', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-switch-icon'))
+    localStorage.setItem('--dark-switch-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-switch-text'))
+    localStorage.setItem('--dark-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-text'))
+    localStorage.setItem('--dark-secondary-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-secondary-text'))
+    localStorage.setItem('--dark-muted-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-muted-text'))
+    localStorage.setItem('--dark-secondary-bg', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-secondary-bg'))
+    localStorage.setItem('--dark-theme', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-theme'))
+    localStorage.setItem('--dark-bar', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-bar'))
+    localStorage.setItem('--dark-highlight', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-highlight'))
 }

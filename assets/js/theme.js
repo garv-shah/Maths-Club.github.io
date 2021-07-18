@@ -9,3 +9,9 @@ if (document.getElementsByClassName('clean-product').length > 0) {
         vanillaZoom.init('#product-preview');
     };
 }
+
+for (let i = 0; i < localStorage.length; i++) {
+    if (localStorage.getItem(localStorage.key(i)) !== null) {
+        document.querySelector(':root').style.setProperty(localStorage.key(i), localStorage.getItem(localStorage.key(i)))
+    }
+}
