@@ -145,6 +145,8 @@ function save() {
     localStorage.setItem('--dark-theme', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-theme'))
     localStorage.setItem('--dark-bar', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-bar'))
     localStorage.setItem('--dark-highlight', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-highlight'))
+
+    window.location.href = '../'
 }
 
 function presetTheme(preset) {
