@@ -177,6 +177,42 @@ function presetTheme(preset) {
         theme = '#a2d5c6'
         bar = '#5c3c92'
         highlight = '#d72631'
+    } else if (preset === 'calm dusk') {
+        switch_shadow = '#3C415C'
+        switch_icon = "👾"
+        switch_text = "calm dusk"
+        text = '#dedad6'
+        secondary_text = '#4c2e62'
+        muted_text = '#ffffff'
+        bg = '#000000'
+        secondary_bg = '#151515'
+        theme = '#B4A5A5'
+        bar = '#000000'
+        highlight = '#3C415C'
+    } else if (preset === 'twilight'){
+        switch_shadow = '#E94560'
+        switch_icon = "🔪"
+        switch_text = "twilight"
+        text = '#dedad6'
+        secondary_text = '#487dc4'
+        muted_text = '#ffffff'
+        bg = '#1A1A2E'
+        secondary_bg = '#16213E'
+        theme = '#E94560'
+        bar = '#16213E'
+        highlight = '#E94560'
+    } else if (preset === 'tree frog') {
+        switch_shadow = '#05386B'
+        switch_icon = "🐸"
+        switch_text = "tree frog"
+        text = '#05386B'
+        secondary_text = '#8EE4AF'
+        muted_text = '#8EE4AF'
+        bg = '#05386B'
+        secondary_bg = '#379683'
+        theme = '#41B3A3'
+        bar = '#379683'
+        highlight = '#5CDB95'
     }
     
     if (localStorage.getItem('switchedTheme') === 'true') {

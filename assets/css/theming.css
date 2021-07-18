@@ -16,14 +16,16 @@
     --dark-switch-shadow: #fce477;
     --dark-switch-icon: "🌝";
     --dark-switch-text: "lights on?";
-    --dark-text: #212529;
-    --dark-secondary-text: #6c757d;
-    --dark-muted-text: #000000;
-    --dark-bg: #f7f7f7;
-    --dark-secondary-bg: #fff;
-    --dark-theme: #3b99e0;
-    --dark-bar: #ffffff;
-    --dark-highlight: #0d6efd;
+    --dark-text: #dedad6;
+    --dark-secondary-text: #4c2e62;
+    --dark-muted-text: #ffffff;
+    --dark-bg: #000000;
+    --dark-secondary-bg: #151515;
+    --dark-theme: #B4A5A5;
+    --dark-bar: #000000;
+    --dark-highlight: #3C415C;
+
+
 
     /* Default mode */
     --switch-shadow-color: var(--dark-switch-shadow);
