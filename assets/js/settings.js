@@ -92,3 +92,31 @@ function setSetting(input) {
         localStorage.setItem(currentSetting, `rgba(${colour[0]},${colour[1]},${colour[2]},${colour[3]})`)
     });
 }
+
+document.querySelector('#page > main > section > div:nth-child(3) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').placeholder = getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-switch-text').replace(/"/g,'')
+document.querySelector('#page > main > section > div:nth-child(4) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').placeholder = getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-switch-icon').replace(/"/g,'')
+document.querySelector('#page > main > section > div:nth-child(5) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').placeholder = getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-switch-text').replace(/"/g,'')
+document.querySelector('#page > main > section > div:nth-child(6) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').placeholder = getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-switch-icon').replace(/"/g,'')
+
+function save() {
+    let dark_switch_text = '"' + document.querySelector('#page > main > section > div:nth-child(3) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').value + '"'
+    let dark_switch_icon = '"' + document.querySelector('#page > main > section > div:nth-child(4) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').value + '"'
+    let light_switch_text = '"' + document.querySelector('#page > main > section > div:nth-child(5) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').value + '"'
+    let light_switch_icon = '"' + document.querySelector('#page > main > section > div:nth-child(6) > div > div.col-auto.col-md-6.d-sm-flex.d-md-flex.flex-fill.justify-content-sm-start.align-items-sm-center.justify-content-md-start.align-items-md-center > input').value + '"'
+
+    if (dark_switch_text !== "\"\"") {
+        document.querySelector(':root').style.setProperty('--dark-switch-text', dark_switch_text)
+    }
+
+    if (dark_switch_icon !== "\"\"") {
+        document.querySelector(':root').style.setProperty('--dark-switch-icon', dark_switch_icon)
+    }
+
+    if (light_switch_text !== "\"\"") {
+        document.querySelector(':root').style.setProperty('--light-switch-text', light_switch_text)
+    }
+
+    if (light_switch_icon !== "\"\"") {
+        document.querySelector(':root').style.setProperty('--light-switch-icon', light_switch_icon)
+    }
+}
