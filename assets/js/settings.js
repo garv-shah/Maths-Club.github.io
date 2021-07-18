@@ -8,7 +8,6 @@ function setSetting(input) {
     } else {
         currentSetting = '--dark-' + input
     }
-    console.log(currentSetting)
 
     const el = document.createElement('p');
     pickrContainer.appendChild(el);
@@ -146,4 +145,8 @@ function save() {
     localStorage.setItem('--dark-theme', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-theme'))
     localStorage.setItem('--dark-bar', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-bar'))
     localStorage.setItem('--dark-highlight', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-highlight'))
+}
+
+function presetTheme(preset) {
+    console.log(preset)
 }

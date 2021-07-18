@@ -42,7 +42,7 @@
         </div>
       </div><!-- End: 1 Row 1 Column -->
       <!-- Start: 1 Row 2 Columns -->
-      <div class="container" style="background: #a2d5c6;">
+      <div class="container" style="background: var(--secondary-bg-color);">
         <div class="row">
           <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill align-self-center justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 50px;margin-bottom: 10px;">
             <div class="dropdown d-flex d-md-flex justify-content-center align-self-center justify-content-md-center"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background-color: var(--highlight-color); border-color: var(--bg-color);">What to change?</button>
@@ -63,7 +63,7 @@
         </div>
       </div><!-- End: 1 Row 2 Columns -->
       <!-- Start: 1 Row 2 Columns -->
-      <div class="container" style="background: #a2d5c6;">
+      <div class="container" style="background: var(--secondary-bg-color);">
         <div class="row">
           <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
             <h1 class="d-flex justify-content-end align-items-center" style="font-size: 16.4px;">Dark Mode Label?</h1>
@@ -74,7 +74,7 @@
         </div>
       </div><!-- End: 1 Row 2 Columns -->
       <!-- Start: 1 Row 2 Columns -->
-      <div class="container" style="background: #a2d5c6;">
+      <div class="container" style="background: var(--secondary-bg-color);">
         <div class="row">
           <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
             <h1 class="d-flex justify-content-end align-items-center" style="font-size: 16.4px;">Dark Mode Emoji?</h1>
@@ -85,7 +85,7 @@
         </div>
       </div><!-- End: 1 Row 2 Columns -->
       <!-- Start: 1 Row 2 Columns -->
-      <div class="container" style="background: #a2d5c6;">
+      <div class="container" style="background: var(--secondary-bg-color);">
         <div class="row">
           <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
             <h1 class="d-flex justify-content-end align-items-center" style="font-size: 16.4px;">Light Mode Label?</h1>
@@ -96,7 +96,7 @@
         </div>
       </div><!-- End: 1 Row 2 Columns -->
       <!-- Start: 1 Row 2 Columns -->
-      <div class="container" style="background: #a2d5c6;">
+      <div class="container" style="background: var(--secondary-bg-color);">
         <div class="row">
           <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 10px;margin-bottom: 10px;">
             <h1 class="d-flex justify-content-end align-items-center" style="font-size: 16.4px;">Light Mode Emoji?</h1>
@@ -107,21 +107,27 @@
         </div>
       </div><!-- End: 1 Row 2 Columns -->
       <!-- Start: 1 Row 1 Column -->
-      <div class="container" style="background: #a2d5c6;">
+      <div class="container" style="background: var(--secondary-bg-color);">
         <div class="row">
           <div class="col-md-12">
             <h1 style="text-align: center;margin-top: 20px;">Presets:</h1>
             <div class="d-flex d-sm-flex d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center" style="margin-bottom: 50px;">
-              <div class="btn-group" role="group"><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button><button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;">Button</button></div>
+              <div class="btn-group" role="group">
+                <button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;" onclick="presetTheme('preset1')">Button</button>
+                <button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;" onclick="presetTheme('preset2')">Button</button>
+                <button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;" onclick="presetTheme('preset3')">Button</button>
+                <button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;" onclick="presetTheme('preset4')">Button</button>
+                <button class="btn btn-danger border rounded-pill" type="button" style="font-size: 10px;" onclick="presetTheme('preset5')">Button</button>
+              </div>
             </div>
           </div>
         </div>
       </div><!-- End: 1 Row 1 Column -->
-      <div class="container" style="background: #a2d5c6;">
+      <div class="container" style="background: var(--secondary-bg-color);">
         <div class="row">
           <div class="col-md-12">
             <div class="d-flex d-sm-flex d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center" style="margin-bottom: 10px;">
-              <button class="btn btn-success btn-lg" type="button" style="font-size: 18px;margin-top: 10px;margin-bottom: 30px;" onClick="save()">Save</button>
+              <button class="btn btn-success btn-lg" type="button" style="font-size: 18px;margin-top: 10px;margin-bottom: 30px; background-color: var(--highlight-color); border-color: var(--highlight-color);" onClick="save()">Save</button>
             </div>
           </div>
         </div>
