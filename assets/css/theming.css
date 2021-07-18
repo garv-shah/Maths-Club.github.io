@@ -78,7 +78,7 @@
     align-self: center;
     content: var(--switch-text);
     color: var(--switch-shadow-color);
-    font-size: 28px;
+    font-size: clamp(min(2vw, 32px), 28px, 4.5vw);
     line-height: 40px;
     opacity: 0;
     padding-left: 15px;
