@@ -130,6 +130,7 @@ function save() {
     localStorage.setItem('--light-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-text'))
     localStorage.setItem('--light-secondary-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-secondary-text'))
     localStorage.setItem('--light-muted-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-muted-text'))
+    localStorage.setItem('--light-bg', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-bg'))
     localStorage.setItem('--light-secondary-bg', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-secondary-bg'))
     localStorage.setItem('--light-theme', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-theme'))
     localStorage.setItem('--light-bar', getComputedStyle(document.querySelector(':root')).getPropertyValue('--light-bar'))
@@ -141,6 +142,7 @@ function save() {
     localStorage.setItem('--dark-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-text'))
     localStorage.setItem('--dark-secondary-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-secondary-text'))
     localStorage.setItem('--dark-muted-text', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-muted-text'))
+    localStorage.setItem('--dark-bg', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-bg'))
     localStorage.setItem('--dark-secondary-bg', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-secondary-bg'))
     localStorage.setItem('--dark-theme', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-theme'))
     localStorage.setItem('--dark-bar', getComputedStyle(document.querySelector(':root')).getPropertyValue('--dark-bar'))
@@ -150,5 +152,57 @@ function save() {
 }
 
 function presetTheme(preset) {
+
+    let switch_shadow = null
+    let switch_icon = null
+    let switch_text = null
+    let text = null
+    let secondary_text = null
+    let muted_text = null
+    let bg = null
+    let secondary_bg = null
+    let theme = null
+    let bar = null
+    let highlight = null
+    
+    if (preset === '~color~') {
+        switch_shadow = '#fce477'
+        switch_icon = "🌝"
+        switch_text = "~color~"
+        text = '#212529'
+        secondary_text = '#ffffff'
+        muted_text = '#6c757d'
+        bg = '#077b8a'
+        secondary_bg = '#a2d5c6'
+        theme = '#a2d5c6'
+        bar = '#5c3c92'
+        highlight = '#d72631'
+    }
+    
+    if (localStorage.getItem('switchedTheme') === 'true') {
+        document.querySelector(':root').style.setProperty('--light-switch-shadow',  switch_shadow)
+        document.querySelector(':root').style.setProperty('--light-switch-icon',  '"' + switch_icon + '"')
+        document.querySelector(':root').style.setProperty('--light-switch-text',  '"' + switch_text + '"')
+        document.querySelector(':root').style.setProperty('--light-text',  text)
+        document.querySelector(':root').style.setProperty('--light-secondary-text',  secondary_text)
+        document.querySelector(':root').style.setProperty('--light-muted-text',  muted_text)
+        document.querySelector(':root').style.setProperty('--light-bg',  bg)
+        document.querySelector(':root').style.setProperty('--light-secondary-bg',  secondary_bg)
+        document.querySelector(':root').style.setProperty('--light-theme',  theme)
+        document.querySelector(':root').style.setProperty('--light-bar',  bar)
+        document.querySelector(':root').style.setProperty('--light-highlight',  highlight)
+    } else {
+        document.querySelector(':root').style.setProperty('--dark-switch-shadow',  switch_shadow)
+        document.querySelector(':root').style.setProperty('--dark-switch-icon',  '"' + switch_icon + '"')
+        document.querySelector(':root').style.setProperty('--dark-switch-text',  '"' + switch_text + '"')
+        document.querySelector(':root').style.setProperty('--dark-text',  text)
+        document.querySelector(':root').style.setProperty('--dark-secondary-text',  secondary_text)
+        document.querySelector(':root').style.setProperty('--dark-muted-text',  muted_text)
+        document.querySelector(':root').style.setProperty('--dark-bg',  bg)
+        document.querySelector(':root').style.setProperty('--dark-secondary-bg',  secondary_bg)
+        document.querySelector(':root').style.setProperty('--dark-theme',  theme)
+        document.querySelector(':root').style.setProperty('--dark-bar',  bar)
+        document.querySelector(':root').style.setProperty('--dark-highlight',  highlight)
+    }
     console.log(preset)
 }

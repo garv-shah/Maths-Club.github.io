@@ -2,7 +2,7 @@
     /* Light mode */
     --light-switch-shadow: #373d4e;
     --light-switch-icon: "🌚";
-    --light-switch-text: "~colour~?";
+    --light-switch-text: "lights off?";
     --light-text: #212529;
     --light-secondary-text: #6c757d;
     --light-muted-text: #000000;
@@ -15,15 +15,15 @@
     /* Dark mode */
     --dark-switch-shadow: #fce477;
     --dark-switch-icon: "🌝";
-    --dark-switch-text: "corporate minimalism?";
+    --dark-switch-text: "lights on?";
     --dark-text: #212529;
-    --dark-secondary-text: #ffffff;
-    --dark-muted-text: #6c757d;
-    --dark-bg: #077b8a;
-    --dark-secondary-bg: #a2d5c6;
-    --dark-theme: #a2d5c6;
-    --dark-bar: #5c3c92;
-    --dark-highlight: #d72631;
+    --dark-secondary-text: #6c757d;
+    --dark-muted-text: #000000;
+    --dark-bg: #f7f7f7;
+    --dark-secondary-bg: #fff;
+    --dark-theme: #3b99e0;
+    --dark-bar: #ffffff;
+    --dark-highlight: #0d6efd;
 
     /* Default mode */
     --switch-shadow-color: var(--dark-switch-shadow);
