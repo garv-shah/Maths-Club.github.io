@@ -41,6 +41,11 @@
     --highlight-color: var(--dark-highlight);
 }
 
+@font-face {
+    font-family: Libertine;
+    src: url(../fonts/LinLibertine.ttf);
+}
+
 /* Switched mode */
 .theme-switch:checked ~ #page {
     --switch-shadow-color: var(--light-switch-shadow);
