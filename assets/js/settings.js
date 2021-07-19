@@ -213,6 +213,18 @@ function presetTheme(preset) {
         theme = '#41B3A3'
         bar = '#379683'
         highlight = '#5CDB95'
+    } else if (preset === 'corporate minimalism') {
+        switch_shadow = '#3b99e0'
+        switch_icon = "🦋"
+        switch_text = "corporate minimalism"
+        text = '#212529'
+        secondary_text = '#6c757d'
+        muted_text = '#000000'
+        bg = '#f7f7f7'
+        secondary_bg = '#fff'
+        theme = '#3b99e0'
+        bar = '#ffffff'
+        highlight = '#0d6efd'
     }
     
     if (localStorage.getItem('switchedTheme') === 'true') {
