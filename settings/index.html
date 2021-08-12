@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+<!-- SEO Stuff -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -19,12 +20,18 @@
 </head>
 
 <body>
-<input type="checkbox" class="theme-switch" id="theme-switch" />
+<input type="checkbox" class="theme-switch" id="theme-switch" /> <!-- This is the button for the checkbox that controls whether it's light or dark mode -->
 <div id="page">
   <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar" style="background-color: var(--bar-color) !important; transition: color 0.4s, background-color 0.4s;">
     <div class="container">
-      <label for="theme-switch" class="switch-label"></label><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="border-color: var(--secondary-text-color); color: var(--secondary-text-color)"><span class="visually-hidden" style="display:table;">Toggle navigation</span><span style="font-size: 200%; display:table-cell;  vertical-align:middle; font-family: Libertine, sans-serif; position:relative; top:-0.1em; line-height: 25px">≡</span></button>
+      <label for="theme-switch" class="switch-label"></label>
+      <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="border-color: var(--secondary-text-color); color: var(--secondary-text-color)">
+        <span class="visually-hidden" style="display:table;">Toggle navigation</span> <!-- This is a navigation button that appears on screens without enough horizontal space to display the tabs at the top -->
+        <span style="font-size: 200%; display:table-cell;  vertical-align:middle; font-family: Libertine, sans-serif; position:relative; top:-0.1em; line-height: 25px">≡</span>
+        <!-- This was initially an icon, but due to the fact that it couldn't change its colour dynamically, it was replaced with an ascii symbol. The font is there to ensure consistency across platforms -->
+      </button>
       <div class="collapse navbar-collapse" id="navcol-1">
+        <!-- The tabs for navigation that read to different parts of the site -->
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color: var(--secondary-text-color); transition: color 0.4s, background-color 0.4s;">Leaderboards</a></li>
           <li class="nav-item"><a class="nav-link active" href="https://www.youtube.com/watch?v=FtutLA63Cp8" style="color: var(--secondary-text-color); transition: color 0.4s, background-color 0.4s;">Take quiz</a></li>
@@ -33,16 +40,17 @@
       </div>
     </div>
   </nav>
-  <main class="page blog-post-list">
+  <main class="page blog-post-list"> <!-- The main body of the site -->
+    <!-- unlike the main page where all the HTML is loaded in, this page is split into separate rows and columns, each having their own setting -->
     <section class="clean-block clean-blog-list dark" style="background-color: var(--bg-color); transition: color 0.4s, background-color 0.4s;">
-      <!-- Start: 1 Row 1 Column -->
+      <!-- Start of 1st Row (the heading) -->
       <div class="container">
         <div class="block-heading">
           <h2 class="text-info" style="color: var(--theme-color) !important; transition: color 0.4s, background-color 0.4s;">Settings</h2>
           <p style="color: var(--secondary-text-color); transition: color 0.4s, background-color 0.4s;">Change the theming however you'd like!</p>
         </div>
-      </div><!-- End: 1 Row 1 Column -->
-      <!-- Start: 1 Row 2 Columns -->
+      </div> <!-- End of 1st Row -->
+      <!-- Start of 2nd Row (the colour picker) -->
       <div class="container" style="background: var(--secondary-bg-color);">
         <div class="row">
           <div class="col-auto col-md-6 d-sm-flex d-md-flex flex-fill align-self-center justify-content-sm-end align-items-sm-center justify-content-md-end align-items-md-center" style="margin-top: 50px;margin-bottom: 10px;">
