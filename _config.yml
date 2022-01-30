@@ -1,6 +1,10 @@
 # Setup
 title: Maths Club
 description: CGS Maths Club Content Repository
+repository: garv-shah/maths-clob-test
+author: Garv Shah
+github: [metadata]
+url: "https://garv-shah.github.io/maths-club-test/"
 markdown: kramdown
 paginate: 1
 baseurl: ""
