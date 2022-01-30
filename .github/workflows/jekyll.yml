@@ -27,7 +27,7 @@ jobs:
     - uses: helaili/jekyll-action@v2
       with:
         token: ${{ secrets.MY_GITHUB_TOKEN }}
-        jekyll_src: '/maths-club-test/'
+        jekyll_src: '/'
 
     # Specify the target branch (optional)
     - uses: helaili/jekyll-action@v2
