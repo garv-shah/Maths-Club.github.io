@@ -3,7 +3,7 @@ title: Maths Club
 description: CGS Maths Club Content Repository
 repository: garv-shah/maths-clob-test
 github: [metadata]
-url: "https://garv-shah.github.io/maths-club-test/"
+url: "https://garv-shah.github.io"
 baseurl: "/maths-club-test"
 markdown: kramdown
 paginate: 1
