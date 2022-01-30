@@ -1,0 +1,53 @@
+I"U<h2 id="doctype-html">&lt;!DOCTYPE html&gt;</h2>
+<p>title: Term 1 Week 1 Junior Problems
+excerpt: Junior Problems for Term 1 Week 1
+—</p>
+<html>
+  <title>
+    
+    2022week1junior &middot; Maths Club
+    
+  </title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+  <link rel="alternate" type="application/atom+xml" title="Maths Club" href="/atom.xml" />
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="2022week1junior" />
+<meta name="author" content="Garv Shah" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="CGS Maths Club Content Repository" />
+<meta property="og:description" content="CGS Maths Club Content Repository" />
+<link rel="canonical" href="http://localhost:4000/posts/2022Week1Junior" />
+<meta property="og:url" content="http://localhost:4000/posts/2022Week1Junior" />
+<meta property="og:site_name" content="Maths Club" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-03T00:00:00+11:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="2022week1junior" />
+<script type="application/ld+json">
+{"headline":"2022week1junior","dateModified":"2022-01-03T00:00:00+11:00","datePublished":"2022-01-03T00:00:00+11:00","author":{"@type":"Person","name":"Garv Shah"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/2022Week1Junior"},"url":"http://localhost:4000/posts/2022Week1Junior","@type":"BlogPosting","description":"CGS Maths Club Content Repository","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</html>
+:ET

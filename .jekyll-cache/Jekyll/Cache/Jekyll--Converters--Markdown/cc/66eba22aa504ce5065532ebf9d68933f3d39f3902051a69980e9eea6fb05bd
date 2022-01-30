@@ -1,0 +1,59 @@
+I"<p>&lt;!DOCTYPE html&gt;</p>
+<html>
+  <title>
+    
+    Term 1 Week 1 Junior Problems &middot; Maths Club
+    
+  </title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+  <link rel="alternate" type="application/atom+xml" title="Maths Club" href="/atom.xml" />
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Term 1 Week 1 Junior Problems" />
+<meta name="author" content="Garv Shah" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Junior Problems for Term 1 Week 1" />
+<meta property="og:description" content="Junior Problems for Term 1 Week 1" />
+<link rel="canonical" href="http://localhost:4000/posts/2022Week1Junior" />
+<meta property="og:url" content="http://localhost:4000/posts/2022Week1Junior" />
+<meta property="og:site_name" content="Maths Club" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-03T00:00:00+11:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Term 1 Week 1 Junior Problems" />
+<script type="application/ld+json">
+{"headline":"Term 1 Week 1 Junior Problems","dateModified":"2022-01-03T00:00:00+11:00","datePublished":"2022-01-03T00:00:00+11:00","author":{"@type":"Person","name":"Garv Shah"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/2022Week1Junior"},"url":"http://localhost:4000/posts/2022Week1Junior","@type":"BlogPosting","description":"Junior Problems for Term 1 Week 1","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</html>
+
+<h1 id="problem-1">Problem 1</h1>
+<p>In the figure below, choose point <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> on <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> so that <img src="//latex.artofproblemsolving.com/0/f/7/0f7a55113a84ee4c04eb66f66d08310c32533ca2.png" class="latex" alt="$\triangle ACD$" width="59" height="13" /> and <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" /> have equal perimeters. What is the area of <img src="//latex.artofproblemsolving.com/f/7/5/f75d6d58b03031bd7cb52a7ca886a8ddf369d21c.png" class="latex" alt="$\triangle ABD$" width="59" height="13" />?
+</p>
+
+<p><img src="//latex.artofproblemsolving.com/5/3/e/53eb67d35ecca7ac6f68e8dff60b0eb5f3e4a602.png" class="latexcenter" alt="[asy]draw((0,0)--(4,0)--(0,3)--(0,0)); label(&quot;$A$&quot;, (0,0), SW); label(&quot;$B$&quot;, (4,0), ESE); label(&quot;$C$&quot;, (0, 3), N); label(&quot;$3$&quot;, (0, 1.5), W); label(&quot;$4$&quot;, (2, 0), S); label(&quot;$5$&quot;, (2, 1.5), NE);[/asy]" width="252" height="198" /></p>
+
+<h1 id="problem-2">Problem 2</h1>
+<p>An integer between $1000$ and $9999$, inclusive, is chosen at random. What is the probability that it is an odd integer whose digits are all distinct?</p>
+:ET

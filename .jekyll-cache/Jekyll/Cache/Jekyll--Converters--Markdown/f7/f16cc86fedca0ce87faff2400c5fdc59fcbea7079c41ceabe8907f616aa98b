@@ -1,0 +1,80 @@
+I"C<p>&lt;!DOCTYPE html&gt;</p>
+<html lang="en">
+
+<html>
+  <title>
+    
+    Triangular Numbers &middot; Maths Club
+    
+  </title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+  <link rel="alternate" type="application/atom+xml" title="Maths Club" href="/atom.xml" />
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Triangular Numbers" />
+<meta name="author" content="Garv Shah" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="What is the next year that is a triangular number?" />
+<meta property="og:description" content="What is the next year that is a triangular number?" />
+<link rel="canonical" href="http://localhost:4000/posts/Triangular-Numbers" />
+<meta property="og:url" content="http://localhost:4000/posts/Triangular-Numbers" />
+<meta property="og:site_name" content="Maths Club" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-10T00:00:00+10:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Triangular Numbers" />
+<script type="application/ld+json">
+{"headline":"Triangular Numbers","dateModified":"2021-07-10T00:00:00+10:00","datePublished":"2021-07-10T00:00:00+10:00","author":{"@type":"Person","name":"Garv Shah"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Triangular-Numbers"},"url":"http://localhost:4000/posts/Triangular-Numbers","@type":"BlogPosting","description":"What is the next year that is a triangular number?","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</html>
+
+
+Triangular numbers are those numbers that can be represented geometrically as a triangle, as shown in the image below:   
+<img alt="Triangular numbers" src="https://raw.githubusercontent.com/Maths-Club/Maths-Club.github.io/main/_posts/triangular-numbers.png" width="350" style="border-radius: 10px" />
+
+The $n^{th}$ triangular number is equal to $1+2+3+...+n$.   
+It can also be evaluated using the *very useful* formula $\dfrac{n(n+1)}{2}$.  
+
+The last year that was a triangular number was 2016. What is the next year that is a triangular number?
+
+
+<details>
+  <summary>Click to show solution</summary>
+  
+ <blockquote> Answer: 2080</blockquote>   
+  
+ <p>
+ The formula $\dfrac{n(n+1)}{2}$ is <em>very useful</em>.   
+ By trial and error, we can find that $2016=\dfrac{63 \times 64}{2}$.
+ The next triangular year is  $\dfrac{64 \times 65}{2}=2080$.
+  </p>
+  
+  <p>
+  Note that we are assuming nobody will be reading and attempting this question more than 60 years after it was written! 😉
+  </p>
+ 
+</details>
+</html>
+:ET

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Maths Club</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2022-01-30T12:51:57+11:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Garv Shah</name>
+   <email>gshah.6110@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Term 1 Week 1 Junior Problems</title>
+   <link href="http://localhost:4000/posts/2022Week1Junior"/>
+   <updated>2022-01-03T00:00:00+11:00</updated>
+   <id>http://localhost:4000/posts/2022Week1Junior</id>
+   <content type="html">&lt;html&gt;
+  &lt;title&gt;
+    
+    Term 1 Week 1 Junior Problems &amp;middot; Maths Club
+    
+  &lt;/title&gt;
+
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css&quot; integrity=&quot;sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc&quot; crossorigin=&quot;anonymous&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/styles.css&quot; /&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js&quot; integrity=&quot;sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js&quot; integrity=&quot;sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+      document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: &apos;$$&apos;, right: &apos;$$&apos;, display: true},
+                {left: &apos;$&apos;, right: &apos;$&apos;, display: false},
+                {left: &apos;\\(&apos;, right: &apos;\\)&apos;, display: false},
+                {left: &apos;\\[&apos;, right: &apos;\\]&apos;, display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  &lt;/script&gt;
+  &lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; title=&quot;Maths Club&quot; href=&quot;/atom.xml&quot; /&gt;
+
+  &lt;!-- Begin Jekyll SEO tag v2.7.1 --&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Jekyll v4.2.1&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;Term 1 Week 1 Junior Problems&quot; /&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Garv Shah&quot; /&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Junior Problems for Term 1 Week 1&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Junior Problems for Term 1 Week 1&quot; /&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://localhost:4000/posts/2022Week1Junior&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;http://localhost:4000/posts/2022Week1Junior&quot; /&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Maths Club&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;article:published_time&quot; content=&quot;2022-01-03T00:00:00+11:00&quot; /&gt;
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot; /&gt;
+&lt;meta property=&quot;twitter:title&quot; content=&quot;Term 1 Week 1 Junior Problems&quot; /&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;
+{&quot;headline&quot;:&quot;Term 1 Week 1 Junior Problems&quot;,&quot;dateModified&quot;:&quot;2022-01-03T00:00:00+11:00&quot;,&quot;datePublished&quot;:&quot;2022-01-03T00:00:00+11:00&quot;,&quot;author&quot;:{&quot;@type&quot;:&quot;Person&quot;,&quot;name&quot;:&quot;Garv Shah&quot;},&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/posts/2022Week1Junior&quot;},&quot;url&quot;:&quot;http://localhost:4000/posts/2022Week1Junior&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;description&quot;:&quot;Junior Problems for Term 1 Week 1&quot;,&quot;@context&quot;:&quot;https://schema.org&quot;}&lt;/script&gt;
+&lt;!-- End Jekyll SEO tag --&gt;
+
+&lt;/html&gt;
+
+&lt;h1 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h1&gt;
+&lt;p&gt;In the figure below, choose point $D$ on $\overline{BC}$ so that $\triangle ACD$ and $\triangle ABD$ have equal perimeters. What is the area of $\triangle ABD$?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//latex.artofproblemsolving.com/5/3/e/53eb67d35ecca7ac6f68e8dff60b0eb5f3e4a602.png&quot; class=&quot;latexcenter&quot; alt=&quot;[asy]draw((0,0)--(4,0)--(0,3)--(0,0)); label(&amp;quot;$A$&amp;quot;, (0,0), SW); label(&amp;quot;$B$&amp;quot;, (4,0), ESE); label(&amp;quot;$C$&amp;quot;, (0, 3), N); label(&amp;quot;$3$&amp;quot;, (0, 1.5), W); label(&amp;quot;$4$&amp;quot;, (2, 0), S); label(&amp;quot;$5$&amp;quot;, (2, 1.5), NE);[/asy]&quot; width=&quot;252&quot; height=&quot;198&quot; style=&quot;filter: invert(100%);&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;problem-2&quot;&gt;Problem 2&lt;/h1&gt;
+&lt;p&gt;An integer between $1000$ and $9999$, inclusive, is chosen at random. What is the probability that it is an odd integer whose digits are all distinct?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Term 3 Week 1 Solutions</title>
+   <link href="http://localhost:4000/posts/Term-3-Week-1-Solutions"/>
+   <updated>2021-07-21T00:00:00+10:00</updated>
+   <id>http://localhost:4000/posts/Term-3-Week-1-Solutions</id>
+   <content type="html">&lt;html&gt;
+  &lt;title&gt;
+    
+    Term 3 Week 1 Solutions &amp;middot; Maths Club
+    
+  &lt;/title&gt;
+
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css&quot; integrity=&quot;sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc&quot; crossorigin=&quot;anonymous&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/styles.css&quot; /&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js&quot; integrity=&quot;sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js&quot; integrity=&quot;sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+      document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: &apos;$$&apos;, right: &apos;$$&apos;, display: true},
+                {left: &apos;$&apos;, right: &apos;$&apos;, display: false},
+                {left: &apos;\\(&apos;, right: &apos;\\)&apos;, display: false},
+                {left: &apos;\\[&apos;, right: &apos;\\]&apos;, display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  &lt;/script&gt;
+  &lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; title=&quot;Maths Club&quot; href=&quot;/atom.xml&quot; /&gt;
+
+  &lt;!-- Begin Jekyll SEO tag v2.7.1 --&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Jekyll v4.2.1&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;Term 3 Week 1 Solutions&quot; /&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Garv Shah&quot; /&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Solutions to the problem set from Term 3 Week 1&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Solutions to the problem set from Term 3 Week 1&quot; /&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://localhost:4000/posts/Term-3-Week-1-Solutions&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;http://localhost:4000/posts/Term-3-Week-1-Solutions&quot; /&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Maths Club&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;article:published_time&quot; content=&quot;2021-07-21T00:00:00+10:00&quot; /&gt;
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot; /&gt;
+&lt;meta property=&quot;twitter:title&quot; content=&quot;Term 3 Week 1 Solutions&quot; /&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;
+{&quot;headline&quot;:&quot;Term 3 Week 1 Solutions&quot;,&quot;dateModified&quot;:&quot;2021-07-21T00:00:00+10:00&quot;,&quot;datePublished&quot;:&quot;2021-07-21T00:00:00+10:00&quot;,&quot;author&quot;:{&quot;@type&quot;:&quot;Person&quot;,&quot;name&quot;:&quot;Garv Shah&quot;},&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/posts/Term-3-Week-1-Solutions&quot;},&quot;url&quot;:&quot;http://localhost:4000/posts/Term-3-Week-1-Solutions&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;description&quot;:&quot;Solutions to the problem set from Term 3 Week 1&quot;,&quot;@context&quot;:&quot;https://schema.org&quot;}&lt;/script&gt;
+&lt;!-- End Jekyll SEO tag --&gt;
+
+&lt;/html&gt;
+
+&lt;h1 id=&quot;problems-from-the-2020-canadian-intermediate-contest&quot;&gt;Problems from the 2020 Canadian Intermediate Contest&lt;/h1&gt;
+
+&lt;p&gt;Last week’s problems were from the 2020 Canadian Intermediate Contest.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cemc.uwaterloo.ca/contests/past_contests/2020/2020CIMC.pdf&quot;&gt;Click here for problems&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cemc.uwaterloo.ca/contests/past_contests/2020/2020CIMCSolution.pdf&quot;&gt;Click here for solutions&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>2020 AMC Junior</title>
+   <link href="http://localhost:4000/posts/2020-AMC-Junior"/>
+   <updated>2021-07-16T00:00:00+10:00</updated>
+   <id>http://localhost:4000/posts/2020-AMC-Junior</id>
+   <content type="html">&lt;html&gt;
+  &lt;title&gt;
+    
+    2020 AMC Junior &amp;middot; Maths Club
+    
+  &lt;/title&gt;
+
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css&quot; integrity=&quot;sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc&quot; crossorigin=&quot;anonymous&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/styles.css&quot; /&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js&quot; integrity=&quot;sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js&quot; integrity=&quot;sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+      document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: &apos;$$&apos;, right: &apos;$$&apos;, display: true},
+                {left: &apos;$&apos;, right: &apos;$&apos;, display: false},
+                {left: &apos;\\(&apos;, right: &apos;\\)&apos;, display: false},
+                {left: &apos;\\[&apos;, right: &apos;\\]&apos;, display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  &lt;/script&gt;
+  &lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; title=&quot;Maths Club&quot; href=&quot;/atom.xml&quot; /&gt;
+
+  &lt;!-- Begin Jekyll SEO tag v2.7.1 --&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Jekyll v4.2.1&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;2020 AMC Junior&quot; /&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Garv Shah&quot; /&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;a few problems and solutions from the AMC :D&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;a few problems and solutions from the AMC :D&quot; /&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://localhost:4000/posts/2020-AMC-Junior&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;http://localhost:4000/posts/2020-AMC-Junior&quot; /&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Maths Club&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;article:published_time&quot; content=&quot;2021-07-16T00:00:00+10:00&quot; /&gt;
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot; /&gt;
+&lt;meta property=&quot;twitter:title&quot; content=&quot;2020 AMC Junior&quot; /&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;
+{&quot;headline&quot;:&quot;2020 AMC Junior&quot;,&quot;dateModified&quot;:&quot;2021-07-16T00:00:00+10:00&quot;,&quot;datePublished&quot;:&quot;2021-07-16T00:00:00+10:00&quot;,&quot;author&quot;:{&quot;@type&quot;:&quot;Person&quot;,&quot;name&quot;:&quot;Garv Shah&quot;},&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/posts/2020-AMC-Junior&quot;},&quot;url&quot;:&quot;http://localhost:4000/posts/2020-AMC-Junior&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;description&quot;:&quot;a few problems and solutions from the AMC :D&quot;,&quot;@context&quot;:&quot;https://schema.org&quot;}&lt;/script&gt;
+&lt;!-- End Jekyll SEO tag --&gt;
+
+&lt;/html&gt;
+
+&lt;h1 id=&quot;madeleines-pin&quot;&gt;Madeleine’s PIN&lt;/h1&gt;
+
+&lt;p&gt;Madeleine types her three-digit Personal Identification Number (PIN) into this keypad.&lt;/p&gt;
+&lt;p&gt;All three digits are different, but the buttons for the first and second digits share an edge, and the buttons for the second and third digits share an edge.&lt;/p&gt;
+&lt;p&gt;For instance, 563 is a possible PIN, but 536 is not, since 5 and 3 do not share an edge.&lt;/p&gt;
+&lt;p&gt;How many possibilities are there for Madeleine’s PIN?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/static/madeleines-pin.png&quot; alt=&quot;Madeleine&apos;s PIN&quot; /&gt;&lt;/p&gt;
+
+&lt;details&gt;
+  &lt;summary&gt;Click to show solution&lt;/summary&gt;
+  &lt;blockquote&gt; Answer: 50&lt;/blockquote&gt;
+  &lt;p&gt;The three digits must make one of the following shapes on the keypad. Below each shape, the number represents the number of ways in which the shape can be placed on the keypad.&lt;/p&gt;
+  &lt;img alt=&quot;Madeleine&apos;s PIN Solution&quot; src=&quot;https://raw.githubusercontent.com/Maths-Club/Maths-Club.github.io/main/static/madeleines-pin-solution.png&quot; style=&quot;border-radius: 10px&quot; /&gt;
+  &lt;p&gt;For each such shape, there are two possible Personal Identification Numbers. So the number of possibilities for Madeleine&apos;s PIN is:&lt;/p&gt;
+  &lt;p&gt;$2\times(4 + 3 + 4 + 4 + 5 + 5) = 50$&lt;/p&gt;
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;augustas-cube&quot;&gt;Augusta’s Cube&lt;/h1&gt;
+
+&lt;p&gt;Starting with a $9\times9\times9$ cube, Augusta removed as few $1\times1\times1$ cubes as possible so that the resulting sculpture had front view, top view and side view all the same, as shown.
+How many $1\times1\times1$ cubes did Augusta remove?
+&lt;img src=&quot;/static/augustas-cube.png&quot; alt=&quot;Augusta&apos;s Cube&quot; /&gt;&lt;/p&gt;
+
+&lt;details&gt;
+  &lt;summary&gt;Click to show solution&lt;/summary&gt;
+  
+ &lt;blockquote&gt; Answer: 329&lt;/blockquote&gt;   
+  
+ &lt;p&gt;
+  The only cubes that Augusta has to remove are those that are in one of the 9 holes in at least one of the 3 views.
+ &lt;/p&gt;
+  
+ &lt;p&gt;
+  Consider first making the central $3\times3$ hole from each direction. Each such hole can be considered as three $3\times3\times3$ cubes, but the three directions have a central $3\times3\times3$ cube in common. Consequently $7\times3^3=7\times27=189$ unit cubes are removed to make these holes, and $20\times33=540$ cubes are left.
+ &lt;/p&gt;
+  
+ &lt;p&gt;
+  Now consider the $1\times1$ holes from each direction. Each of the twenty $3\times3\times3$ cubes remaining will have $7$ unit cubes removed, so $20\times7=140$ unit cubes in all.
+  In total, Augusta removes $189 + 140=329$ unit cubes  
+ &lt;/p&gt;
+ 
+&lt;/details&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;product-of-integars&quot;&gt;Product of Integars&lt;/h1&gt;
+&lt;p&gt;A different integer from 1 to 10 is placed on each of the faces of a cube. Each vertex is then assigned a number which is the sum of the numbers on the three faces which touch that vertex.&lt;/p&gt;
+&lt;p&gt;Only the vertex numbers are shown here. What is the product of the 4 smallest face numbers?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/static/product-of-integars.png&quot; alt=&quot;Product of Integars&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Triangular Numbers</title>
+   <link href="http://localhost:4000/posts/Triangular-Numbers"/>
+   <updated>2021-07-10T00:00:00+10:00</updated>
+   <id>http://localhost:4000/posts/Triangular-Numbers</id>
+   <content type="html">&lt;html&gt;
+  &lt;title&gt;
+    
+    Triangular Numbers &amp;middot; Maths Club
+    
+  &lt;/title&gt;
+
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css&quot; integrity=&quot;sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc&quot; crossorigin=&quot;anonymous&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/styles.css&quot; /&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js&quot; integrity=&quot;sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js&quot; integrity=&quot;sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+      document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: &apos;$$&apos;, right: &apos;$$&apos;, display: true},
+                {left: &apos;$&apos;, right: &apos;$&apos;, display: false},
+                {left: &apos;\\(&apos;, right: &apos;\\)&apos;, display: false},
+                {left: &apos;\\[&apos;, right: &apos;\\]&apos;, display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  &lt;/script&gt;
+  &lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; title=&quot;Maths Club&quot; href=&quot;/atom.xml&quot; /&gt;
+
+  &lt;!-- Begin Jekyll SEO tag v2.7.1 --&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Jekyll v4.2.1&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;Triangular Numbers&quot; /&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Garv Shah&quot; /&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;What is the next year that is a triangular number?&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;What is the next year that is a triangular number?&quot; /&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://localhost:4000/posts/Triangular-Numbers&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;http://localhost:4000/posts/Triangular-Numbers&quot; /&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Maths Club&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;article:published_time&quot; content=&quot;2021-07-10T00:00:00+10:00&quot; /&gt;
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot; /&gt;
+&lt;meta property=&quot;twitter:title&quot; content=&quot;Triangular Numbers&quot; /&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;
+{&quot;headline&quot;:&quot;Triangular Numbers&quot;,&quot;dateModified&quot;:&quot;2021-07-10T00:00:00+10:00&quot;,&quot;datePublished&quot;:&quot;2021-07-10T00:00:00+10:00&quot;,&quot;author&quot;:{&quot;@type&quot;:&quot;Person&quot;,&quot;name&quot;:&quot;Garv Shah&quot;},&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/posts/Triangular-Numbers&quot;},&quot;url&quot;:&quot;http://localhost:4000/posts/Triangular-Numbers&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;description&quot;:&quot;What is the next year that is a triangular number?&quot;,&quot;@context&quot;:&quot;https://schema.org&quot;}&lt;/script&gt;
+&lt;!-- End Jekyll SEO tag --&gt;
+
+&lt;/html&gt;
+
+&lt;p&gt;Triangular numbers are those numbers that can be represented geometrically as a triangle, as shown in the image below: &lt;br /&gt;
+&lt;img alt=&quot;Triangular numbers&quot; src=&quot;https://raw.githubusercontent.com/Maths-Club/Maths-Club.github.io/main/_posts/triangular-numbers.png&quot; width=&quot;350&quot; style=&quot;border-radius: 10px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The $n^{th}$ triangular number is equal to $1+2+3+…+n$. &lt;br /&gt;
+It can also be evaluated using the &lt;em&gt;very useful&lt;/em&gt; formula $\dfrac{n(n+1)}{2}$.&lt;/p&gt;
+
+&lt;p&gt;The last year that was a triangular number was 2016. What is the next year that is a triangular number?&lt;/p&gt;
+
+&lt;details&gt;
+  &lt;summary&gt;Click to show solution&lt;/summary&gt;
+  
+ &lt;blockquote&gt; Answer: 2080&lt;/blockquote&gt;   
+  
+ &lt;p&gt;
+ The formula $\dfrac{n(n+1)}{2}$ is &lt;em&gt;very useful&lt;/em&gt;.   
+ By trial and error, we can find that $2016=\dfrac{63 \times 64}{2}$.
+ The next triangular year is  $\dfrac{64 \times 65}{2}=2080$.
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+  Note that we are assuming nobody will be reading and attempting this question more than 60 years after it was written! 😉
+  &lt;/p&gt;
+ 
+&lt;/details&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>About Maths Club</title>
+   <link href="http://localhost:4000/posts/About-Maths-Club"/>
+   <updated>2021-07-09T00:00:00+10:00</updated>
+   <id>http://localhost:4000/posts/About-Maths-Club</id>
+   <content type="html">&lt;html&gt;
+  &lt;title&gt;
+    
+    About Maths Club &amp;middot; Maths Club
+    
+  &lt;/title&gt;
+
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css&quot; integrity=&quot;sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc&quot; crossorigin=&quot;anonymous&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/styles.css&quot; /&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js&quot; integrity=&quot;sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js&quot; integrity=&quot;sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+      document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: &apos;$$&apos;, right: &apos;$$&apos;, display: true},
+                {left: &apos;$&apos;, right: &apos;$&apos;, display: false},
+                {left: &apos;\\(&apos;, right: &apos;\\)&apos;, display: false},
+                {left: &apos;\\[&apos;, right: &apos;\\]&apos;, display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  &lt;/script&gt;
+  &lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; title=&quot;Maths Club&quot; href=&quot;/atom.xml&quot; /&gt;
+
+  &lt;!-- Begin Jekyll SEO tag v2.7.1 --&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Jekyll v4.2.1&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;About Maths Club&quot; /&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Garv Shah&quot; /&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;The CGSWH Maths Club&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;The CGSWH Maths Club&quot; /&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://localhost:4000/posts/About-Maths-Club&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;http://localhost:4000/posts/About-Maths-Club&quot; /&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Maths Club&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;article:published_time&quot; content=&quot;2021-07-09T00:00:00+10:00&quot; /&gt;
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot; /&gt;
+&lt;meta property=&quot;twitter:title&quot; content=&quot;About Maths Club&quot; /&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;
+{&quot;headline&quot;:&quot;About Maths Club&quot;,&quot;dateModified&quot;:&quot;2021-07-09T00:00:00+10:00&quot;,&quot;datePublished&quot;:&quot;2021-07-09T00:00:00+10:00&quot;,&quot;author&quot;:{&quot;@type&quot;:&quot;Person&quot;,&quot;name&quot;:&quot;Garv Shah&quot;},&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/posts/About-Maths-Club&quot;},&quot;url&quot;:&quot;http://localhost:4000/posts/About-Maths-Club&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;description&quot;:&quot;The CGSWH Maths Club&quot;,&quot;@context&quot;:&quot;https://schema.org&quot;}&lt;/script&gt;
+&lt;!-- End Jekyll SEO tag --&gt;
+
+&lt;/html&gt;
+
+&lt;h1 id=&quot;the-jerry-mao-maths-club&quot;&gt;The Jerry Mao Maths Club&lt;/h1&gt;
+
+&lt;p&gt;The Jerry Mao Maths Club was founded at Caulfield Grammar Wheelers Hill Campus in 2017 by Jerry Mao (hence the name). He started the Maths Club to share his love of Maths and problem solving with other students at CGS. If you are a student at our school, then you have no doubt already heard about Jerry’s legendary achievements. But you can also find out more about him here:&lt;br /&gt;
+&lt;a href=&quot;https://www.caulfieldgrammarians.com.au/high-achiever-jerry-mao/&quot;&gt;https://www.caulfieldgrammarians.com.au/high-achiever-jerry-mao/&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://jerrymao.net/&quot;&gt;https://jerrymao.net/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2019, Junhua Chen took over as Maths Club Leader, after being “trained up” by Jerry the previous year. Having representing Australia in Informatics, Junhua brought his passion for combinatorics, game analysis, and all areas of maths into the problem sets he created for Maths Club. The students loved his understated manner, friendly sense of humour and down-to-earth teaching style. Junhua also built this website after graduating!&lt;/p&gt;
+
+&lt;p&gt;In 2021, the Maths Club leadership was taken over by Chenxiao (Kevin) Zhou, Jasmin Wang and Eric He. They have each brought their own personalities to Maths Club: Kevin with his love of Euclidean Geometry and “tough-love” teaching style, Eric with his Algorithmic skills and crystal clear explanations, and Jasmin with her creative problem solving approaches and “bad girl” image.&lt;/p&gt;
+
+&lt;p&gt;Whether you are a Maths gun looking for more of a challenge, or just enjoy the simple pleasure of investigating and solving problems, Maths Club is for you. We hope you learn something, and most of all, have fun!&lt;/p&gt;
+
+&lt;p&gt;Russell Lim&lt;br /&gt;
+CGS Maths Teacher and Maths Club Supervisor
+2018 - 2021&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>TestPost</title>
+   <link href="http://localhost:4000/posts/TestPost"/>
+   <updated>2021-06-03T00:00:00+10:00</updated>
+   <id>http://localhost:4000/posts/TestPost</id>
+   <content type="html">&lt;html&gt;
+  &lt;title&gt;
+    
+    TestPost &amp;middot; Maths Club
+    
+  &lt;/title&gt;
+
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css&quot; integrity=&quot;sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc&quot; crossorigin=&quot;anonymous&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;/styles.css&quot; /&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js&quot; integrity=&quot;sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js&quot; integrity=&quot;sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script&gt;
+      document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: &apos;$$&apos;, right: &apos;$$&apos;, display: true},
+                {left: &apos;$&apos;, right: &apos;$&apos;, display: false},
+                {left: &apos;\\(&apos;, right: &apos;\\)&apos;, display: false},
+                {left: &apos;\\[&apos;, right: &apos;\\]&apos;, display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  &lt;/script&gt;
+  &lt;link rel=&quot;alternate&quot; type=&quot;application/atom+xml&quot; title=&quot;Maths Club&quot; href=&quot;/atom.xml&quot; /&gt;
+
+  &lt;!-- Begin Jekyll SEO tag v2.7.1 --&gt;
+&lt;meta name=&quot;generator&quot; content=&quot;Jekyll v4.2.1&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;TestPost&quot; /&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Garv Shah&quot; /&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Test Problemset Yay&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Test Problemset Yay&quot; /&gt;
+&lt;link rel=&quot;canonical&quot; href=&quot;http://localhost:4000/posts/TestPost&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;http://localhost:4000/posts/TestPost&quot; /&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Maths Club&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;article:published_time&quot; content=&quot;2021-06-03T00:00:00+10:00&quot; /&gt;
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot; /&gt;
+&lt;meta property=&quot;twitter:title&quot; content=&quot;TestPost&quot; /&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;
+{&quot;headline&quot;:&quot;TestPost&quot;,&quot;dateModified&quot;:&quot;2021-06-03T00:00:00+10:00&quot;,&quot;datePublished&quot;:&quot;2021-06-03T00:00:00+10:00&quot;,&quot;author&quot;:{&quot;@type&quot;:&quot;Person&quot;,&quot;name&quot;:&quot;Garv Shah&quot;},&quot;mainEntityOfPage&quot;:{&quot;@type&quot;:&quot;WebPage&quot;,&quot;@id&quot;:&quot;http://localhost:4000/posts/TestPost&quot;},&quot;url&quot;:&quot;http://localhost:4000/posts/TestPost&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;description&quot;:&quot;Test Problemset Yay&quot;,&quot;@context&quot;:&quot;https://schema.org&quot;}&lt;/script&gt;
+&lt;!-- End Jekyll SEO tag --&gt;
+
+&lt;/html&gt;
+
+&lt;p&gt;This is a Markdown file.
+&lt;a href=&quot;https://www.markdownguide.org/basic-syntax/&quot;&gt;Click this link to learn about Markdown syntax&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;on-the-subject-of-memes&quot;&gt;On the subject of memes&lt;/h1&gt;
+
+&lt;p&gt;Haha meme funny $x^2+2x+1=0$ is a qaudratic equation rendered with inline math
+($).&lt;/p&gt;
+
+&lt;p&gt;OOh goody I can do display math with “$$” signs.&lt;/p&gt;
+
+&lt;span class=&quot;katex-display&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;munderover&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/munderover&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;\sum_{i=0}^n i = \frac{n(n+1)}{2}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:2.929066em;vertical-align:-1.277669em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mop op-limits&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.6513970000000002em;&quot;&gt;&lt;span style=&quot;top:-1.872331em;margin-left:0em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.05em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;&lt;span class=&quot;mord mathnormal mtight&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mrel mtight&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mord mtight&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.050005em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.05em;&quot;&gt;&lt;/span&gt;&lt;span&gt;&lt;span class=&quot;mop op-symbol large-op&quot;&gt;∑&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-4.3000050000000005em;margin-left:0em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3.05em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mathnormal mtight&quot;&gt;n&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.277669em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.16666666666666666em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:2.113em;vertical-align:-0.686em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mopen nulldelimiter&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mfrac&quot;&gt;&lt;span class=&quot;vlist-t vlist-t2&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:1.427em;&quot;&gt;&lt;span style=&quot;top:-2.314em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.23em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;frac-line&quot; style=&quot;border-bottom-width:0.04em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;top:-3.677em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:3em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mbin&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2222222222222222em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-s&quot;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.686em;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;mclose nulldelimiter&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;blockquotes are good&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;here-is-how-you-can-include-an-image&quot;&gt;Here is how you can include an image&lt;/h1&gt;
+
+&lt;p&gt;First upload the image to the \static folder and use Jekyll’s inbuilt tag system&lt;/p&gt;
+
+&lt;p&gt;Markdown:
+&lt;img src=&quot;/static/nine-isosceles-trapezoids-form-ring.png&quot; alt=&quot;Nine trapezoids forming a ring&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML (if you want to change the size etc.):
+&lt;img alt=&quot;Nine trapezoids forming a ring&quot; src=&quot;https://raw.githubusercontent.com/Maths-Club/Maths-Club.github.io/main/static/nine-isosceles-trapezoids-form-ring.png&quot; width=&quot;100&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;here-is-a-problem-with-solution-hidden&quot;&gt;Here is a problem with solution hidden&lt;/h1&gt;
+
+&lt;p&gt;What is the largest prime factor of 51?&lt;/p&gt;
+
+&lt;details&gt;
+
+&lt;summary&gt;Click to show solution&lt;/summary&gt;
+ (MARKDOWN NOT RENDERED INSIDE HTML TAG?)
+&amp;gt; Answer: 17
+
+Let&apos;s use trial and error to see which numbers are factors of 51
+
+It&apos;s odd so we only need to try odd numbers:
+* 1 is a factor: $51 = 1 \times 51$
+* 3 is a factor: $51 = 3 \times 17$
+* 5 is not a factor
+* 7 is not a factor
+* 9 is not a factor
+
+And $9^2$ is already larger than $51$, so we don&apos;t need to try any more.
+The largest prime factor we found was $17$.
+
+&lt;/details&gt;
+
+&lt;details&gt;
+  &lt;summary&gt;Click to show solution (V2)&lt;/summary&gt;
+
+ &lt;blockquote&gt; Answer: 17&lt;/blockquote&gt;
+
+  Let&apos;s use trial and error to see which numbers are factors of 51  &lt;br /&gt;
+  It&apos;s odd so we only need to try odd numbers: &lt;br /&gt;&lt;br /&gt;
+
+  &lt;ul&gt;
+     &lt;li&gt; 1 is a factor: $51 = 1 \times 51$ &lt;/li&gt;
+     &lt;li&gt; 3 is a factor: $51 = 3 \times 17$ &lt;/li&gt;
+     &lt;li&gt; 5 is not a factor &lt;/li&gt;
+     &lt;li&gt; 7 is not a factor &lt;/li&gt;
+     &lt;li&gt; 9 is not a factor &lt;/li&gt;
+ &lt;/ul&gt;
+  &lt;br /&gt;
+  And $9^2$ is already larger than $51$, so we don&apos;t need to try any more. &lt;br /&gt;
+  The largest prime factor we found was $17$.&lt;br /&gt;&lt;br /&gt;
+&lt;/details&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;garv-likes-gifs&quot;&gt;garv likes gifs&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt; &lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt;
+&lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt; &lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt;
+&lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt; &lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt;
+&lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt; &lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt;
+&lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt; &lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt;
+&lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt; &lt;img src=&quot;/static/dance.gif&quot; alt=&quot;dance&quot; /&gt;
+&lt;img src=&quot;/static/cat.gif&quot; alt=&quot;cat&quot; /&gt; &lt;img src=&quot;/static/cat.gif&quot; alt=&quot;cat&quot; /&gt;
+&lt;img src=&quot;/static/cat.gif&quot; alt=&quot;cat&quot; /&gt; &lt;img src=&quot;/static/cat.gif&quot; alt=&quot;cat&quot; /&gt;
+&lt;img src=&quot;/static/cat.gif&quot; alt=&quot;cat&quot; /&gt; &lt;img src=&quot;/static/cat.gif&quot; alt=&quot;cat&quot; /&gt;
+&lt;img src=&quot;/static/cat.gif&quot; alt=&quot;cat&quot; /&gt; &lt;img src=&quot;/static/cat.gif&quot; alt=&quot;cat&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
