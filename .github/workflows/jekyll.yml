@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm install
+    - run: npm test
 
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v2
