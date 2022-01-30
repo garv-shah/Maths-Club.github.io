@@ -12,9 +12,9 @@ jobs:
       with:
         node-version: '16'
     - run: npm install
+    - run: npm test
     - run: npm i postcss
     - run: npm i sass
-    - run: npm test
 
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v2
