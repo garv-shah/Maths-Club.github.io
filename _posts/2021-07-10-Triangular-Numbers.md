@@ -1,6 +1,7 @@
 ---
 title: Triangular Numbers
 excerpt: What is the next year that is a triangular number?
+layout: post
 ---
 {% include header.html %}
 

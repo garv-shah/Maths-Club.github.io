@@ -1,5 +1,6 @@
 ---
 excerpt: The CGSWH Maths Club
+layout: post
 ---
 {% include header.html %}
 

@@ -1,0 +1,145 @@
+I"�<html>
+  <title>
+    
+    Term 1 Week 1 Junior Problems &middot; Maths Club
+    
+  </title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/styles.css" />
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+  <link rel="alternate" type="application/atom+xml" title="Maths Club" href="/atom.xml" />
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Term 1 Week 1 Junior Problems" />
+<meta name="author" content="Garv Shah" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Junior Problems for Term 1 Week 1" />
+<meta property="og:description" content="Junior Problems for Term 1 Week 1" />
+<link rel="canonical" href="http://localhost:4000/posts/2022Week1Junior" />
+<meta property="og:url" content="http://localhost:4000/posts/2022Week1Junior" />
+<meta property="og:site_name" content="Maths Club" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-03T00:00:00+11:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Term 1 Week 1 Junior Problems" />
+<script type="application/ld+json">
+{"headline":"Term 1 Week 1 Junior Problems","dateModified":"2022-01-03T00:00:00+11:00","datePublished":"2022-01-03T00:00:00+11:00","author":{"@type":"Person","name":"Garv Shah"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/2022Week1Junior"},"url":"http://localhost:4000/posts/2022Week1Junior","@type":"BlogPosting","description":"Junior Problems for Term 1 Week 1","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</html>
+
+<h1 id="problem-1">Problem 1</h1>
+<p>In the figure below, choose point $D$ on $\overline{BC}$ so that $\triangle ACD$ and $\triangle ABD$ have equal perimeters. What is the area of $\triangle ABD$?</p>
+
+<p><img src="//latex.artofproblemsolving.com/5/3/e/53eb67d35ecca7ac6f68e8dff60b0eb5f3e4a602.png" class="latexcenter" alt="[asy]draw((0,0)--(4,0)--(0,3)--(0,0)); label(&quot;$A$&quot;, (0,0), SW); label(&quot;$B$&quot;, (4,0), ESE); label(&quot;$C$&quot;, (0, 3), N); label(&quot;$3$&quot;, (0, 1.5), W); label(&quot;$4$&quot;, (2, 0), S); label(&quot;$5$&quot;, (2, 1.5), NE);[/asy]" width="252" height="198" style="filter: invert(100%);" /></p>
+
+<h1 id="problem-2">Problem 2</h1>
+<p>An integer between $1000$ and $9999$, inclusive, is chosen at random. What is the probability that it is an odd integer whose digits are all distinct?</p>
+
+<p>\def\A{A}
+\def\B{\V{B}}</p>
+
+<p>%\begin{figure}
+\begin{center}
+\begin{asy}
+size(4cm,0);
+pen colour1=red;
+pen colour2=green;</p>
+
+<p>pair z0=(0,0);
+pair z1=(-1,0);
+pair z2=(1,0);
+real r=1.5;
+path c1=circle(z1,r);
+path c2=circle(z2,r);
+fill(c1,colour1);
+fill(c2,colour2);</p>
+
+<p>picture intersection=new picture;
+fill(intersection,c1,colour1+colour2);
+clip(intersection,c2);</p>
+
+<p>add(intersection);</p>
+
+<p>draw(c1);
+draw(c2);</p>
+
+<p>//draw(“$\A$”,box,z1);              // Requires [inline] package option.
+//draw(Label(“$\B$”,”$B$”),box,z2); // Requires [inline] package option.
+draw(“$A$”,box,z1);          <br />
+draw(“$\V{B}$”,box,z2);</p>
+
+<p>pair z=(0,-2);
+real m=3;
+margin BigMargin=Margin(0,m*dot(unit(z1-z),unit(z0-z)));</p>
+
+<p>draw(Label(“$A\cap B$”,0),conj(z)–z0,Arrow,BigMargin);
+draw(Label(“$A\cup B$”,0),z–z0,Arrow,BigMargin);
+draw(z–z1,Arrow,Margin(0,m));
+draw(z–z2,Arrow,Margin(0,m));</p>
+
+<p>shipout(bbox(0.25cm));
+\end{asy}
+%\caption{Venn diagram}\label{venn}
+\end{center}
+%\end{figure}</p>
+
+<p>Each graph is drawn in its own environment. One can specify the width
+and height to \LaTeX\ explicitly. This 3D example can be viewed
+interactively either with Adobe Reader or Asymptote’s fast OpenGL-based
+renderer. To support {\tt latexmk}, 3D figures should specify
+\verb+inline=true+. It is sometimes desirable to embed 3D files as annotated
+attachments; this requires the \verb+attach=true+ option as well as the
+\verb+attachfile2+ \LaTeX\ package.
+\begin{center}
+\begin{asy}[height=4cm,inline=true,attach=false,viewportwidth=\linewidth]
+currentprojection=orthographic(5,4,2);
+draw(unitcube,blue);
+label(“$V-E+F=2$”,(0,1,0.5),3Y,blue+fontsize(17pt));
+\end{asy}
+\end{center}</p>
+
+<p>One can also scale the figure to the full line width:
+\begin{center}
+\begin{asy}[width=\the\linewidth,inline=true]
+pair z0=(0,0);
+pair z1=(2,0);
+pair z2=(5,0);
+pair zf=z1+0.75*(z2-z1);</p>
+
+<p>draw(z1–z2);
+dot(z1,red+0.15cm);
+dot(z2,darkgreen+0.3cm);
+label(“$m$”,z1,1.2N,red);
+label(“$M$”,z2,1.5N,darkgreen);
+label(“$\hat{\ }$”,zf,0.2*S,fontsize(24pt)+blue);</p>
+
+<p>pair s=-0.2<em>I;
+draw(“$x$”,z0+s–z1+s,N,red,Arrows,Bars,PenMargins);
+s=-0.5</em>I;
+draw(“$\bar{x}$”,z0+s–zf+s,blue,Arrows,Bars,PenMargins);
+s=-0.95*I;
+draw(“$X$”,z0+s–z2+s,darkgreen,Arrows,Bars,PenMargins);
+\end{asy}
+\end{center}
+\end{document}</p>
+:ET
